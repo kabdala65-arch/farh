@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import './CounterSection.css'
 
-const START_DATE = new Date('2026-05-24T00:00:00')
+const START_DATE = new Date('2022-12-06T00:00:00')
 
 function getElapsed() {
   const now = new Date()
@@ -41,7 +41,7 @@ export default function CounterSection() {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <span className="section-tag">من يوم 24/5/2026</span>
+        <span className="section-tag">من يوم 12/6/2022</span>
         <h2 className="section-title">بقالنا مع بعض</h2>
         <p className="section-subtitle">وكل ثانية بتعدي بتخليني أحبك أكتر من اللي فات ♥</p>
       </motion.div>
